@@ -85,5 +85,5 @@ The goal of this project is to **predict whether a person is at risk of heart di
 - **heart_disease_uci.csv** — Dataset used for analysis and visual exploration.
 ---
 
-## 🔗 References
+## References
 - Heart Disease UCI Dataset: [Kaggle link](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)  
