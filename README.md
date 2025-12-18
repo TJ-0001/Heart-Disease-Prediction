@@ -81,3 +81,13 @@ The goal of this project is to **predict whether a person is at risk of heart di
 ---
 
 ## 💻 Repository Structure
+heart-disease-prediction/
+│
+├─ heart_disease_prediction.ipynb # Main notebook with all steps
+├─ heart_disease_uci.csv # Dataset
+├─ README.md # Project summary
+
+---
+
+## 🔗 References
+- Heart Disease UCI Dataset: [Kaggle link](https://www.kaggle.com/ronitf/heart-disease-uci)  
