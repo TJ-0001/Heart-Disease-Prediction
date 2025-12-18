@@ -1,11 +1,11 @@
 # Heart Disease Prediction
 
-## 🏥 Objective
+## Objective
 The goal of this project is to **predict whether a person is at risk of heart disease** using the **Heart Disease UCI dataset**. This is a **binary classification problem**, where `0` indicates no heart disease and `1` indicates the presence of heart disease.
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Name:** Heart Disease UCI Dataset  
 - **Source:** [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)  
 - **Features (16 columns):**  
@@ -27,7 +27,7 @@ The goal of this project is to **predict whether a person is at risk of heart di
 
 ---
 
-## 🧪 Models Applied
+## Models Applied
 1. **Logistic Regression**  
    - Provides probabilities and coefficients to understand feature influence.  
 2. **Decision Tree Classifier**  
@@ -35,20 +35,20 @@ The goal of this project is to **predict whether a person is at risk of heart di
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 ### Model Performance
 | Model | Accuracy | ROC-AUC |
 |-------|---------|---------|
-| Logistic Regression | ~XX% | ~XX |
-| Decision Tree | ~XX% | ~XX |
+| Logistic Regression | ~82% | ~89% |
+| Decision Tree | ~77% | ~82% |
 
 ### Confusion Matrices
 - Both models were evaluated using confusion matrices and ROC curves.
 
 ---
 
-## 🔑 Feature Importance
+## Feature Importance
 
 ### Logistic Regression (Coefficient Signs)
 - **Positive:** `cp`, `oldpeak`, `exang`, `age` → increase heart disease risk  
@@ -71,7 +71,7 @@ The goal of this project is to **predict whether a person is at risk of heart di
 
 ---
 
-## 📊 Insights & Conclusions
+## Insights & Conclusions
 1. **Chest pain type** and **ST depression** are key indicators of heart disease.  
 2. Logistic Regression shows **direction of effect** (which features increase/decrease risk).  
 3. Decision Tree highlights **features most frequently used for splits**.  
@@ -80,14 +80,10 @@ The goal of this project is to **predict whether a person is at risk of heart di
 
 ---
 
-## 💻 Repository Structure
-heart-disease-prediction/
-│
-├─ heart_disease_prediction.ipynb # Main notebook with all steps
-├─ heart_disease_uci.csv # Dataset
-├─ README.md # Project summary
-
+## Files Included
+- **heart_disease_prediction.ipynb** — Jupyter Notebook containing all code, visualizations, and outputs.
+- **heart_disease_uci.csv** — Dataset used for analysis and visual exploration.
 ---
 
 ## 🔗 References
-- Heart Disease UCI Dataset: [Kaggle link](https://www.kaggle.com/ronitf/heart-disease-uci)  
+- Heart Disease UCI Dataset: [Kaggle link](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)  
