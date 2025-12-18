@@ -7,7 +7,7 @@ The goal of this project is to **predict whether a person is at risk of heart di
 
 ## Dataset
 - **Name:** Heart Disease UCI Dataset  
-- **Source:** [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)  
+- **Source:** [Kaggle](https://www.kaggle.com)  
 - **Features (16 columns):**  
   - `age` – Age of the patient  
   - `sex` – Gender  
